@@ -1,0 +1,4 @@
+Sample	deletion_length	num_splices	num_GTAG_splices	unmapped_other	unmapped_tooshort_percent	insertion_rate	uniquely_mapped	num_GCAG_splices	unmapped_mismatches	unmapped_other_percent	multimapped_toomany_percent	multimapped_percent	unmapped_tooshort	num_ATAC_splices	unmapped_mismatches_percent	avg_mapped_read_length	total_reads	num_annotated_splices	multimapped	insertion_length	uniquely_mapped_percent	multimapped_toomany	avg_input_read_length	deletion_rate	num_noncanonical_splices
+ERR2868172	0.0	0.0	0.0	0	0.0	0.0	0.0	0.0	0	0.0	0.0	0.0	0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+ERR2868173	0.0	0.0	0.0	0	0.0	0.0	0.0	0.0	0	0.0	0.0	0.0	0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+ERR2868174	0.0	0.0	0.0	0	0.0	0.0	0.0	0.0	0	0.0	0.0	0.0	0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0

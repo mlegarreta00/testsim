@@ -1,0 +1,4 @@
+Sample	cutadapt_version
+ERR2868172_2	4.5
+ERR2868173_2	4.5
+ERR2868174_2	4.5

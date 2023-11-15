@@ -1,0 +1,4 @@
+@HD	VN:1.4
+@SQ	SN:NC_000913.3	LN:4641652
+@PG	ID:STAR	PN:STAR	VN:2.7.11a	CL:/home/vant/miniforge3/envs/first-script/bin/STAR-avx2   --runThreadN 4   --genomeDir res/genome/star_index/   --readFilesIn out/cutadapt/ERR2868174_1.trimmed.fastq.gz   out/cutadapt/ERR2868174_2.trimmed.fastq.gz      --readFilesCommand zcat      --outFileNamePrefix out/star/ERR2868174/
+@CO	user command line: /home/vant/miniforge3/envs/first-script/bin/STAR-avx2 --runThreadN 4 --genomeDir res/genome/star_index/ --readFilesIn out/cutadapt/ERR2868174_1.trimmed.fastq.gz out/cutadapt/ERR2868174_2.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix out/star/ERR2868174/

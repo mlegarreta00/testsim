@@ -1,0 +1,11 @@
+Module	Section	Sample Name	Source
+STAR	SummaryLog	Log.final.out	/home/vant/testsim/out/star/ERR2868173/Log.final.out
+Cutadapt	all_sections	ERR2868172_2	/home/vant/testsim/log/cutadapt/ERR2868172.log
+Cutadapt	all_sections	ERR2868174_2	/home/vant/testsim/log/cutadapt/ERR2868174.log
+Cutadapt	all_sections	ERR2868173_2	/home/vant/testsim/log/cutadapt/ERR2868173.log
+FastQC	all_sections	ERR2868172_2	/home/vant/testsim/out/fastqc/ERR2868172_2_fastqc.zip
+FastQC	all_sections	ERR2868173_2	/home/vant/testsim/out/fastqc/ERR2868173_2_fastqc.zip
+FastQC	all_sections	ERR2868173_1	/home/vant/testsim/out/fastqc/ERR2868173_1_fastqc.zip
+FastQC	all_sections	ERR2868174_1	/home/vant/testsim/out/fastqc/ERR2868174_1_fastqc.zip
+FastQC	all_sections	ERR2868174_2	/home/vant/testsim/out/fastqc/ERR2868174_2_fastqc.zip
+FastQC	all_sections	ERR2868172_1	/home/vant/testsim/out/fastqc/ERR2868172_1_fastqc.zip

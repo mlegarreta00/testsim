@@ -1,1 +1,57 @@
-bash: run_pipeline.sh: No existe el archivo o el directorio
+--2023-11-16 19:01:11--  ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz
+           => ‘res/genome/ecoli.fasta.gz’
+Resolviendo ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)... 130.14.250.11, 130.14.250.10, 2607:f220:41e:250::12, ...
+Conectando con ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)[130.14.250.11]:21... conectado.
+Accediendo como anonymous... ¡Sesión iniciada!
+==> SYST ... hecho.    ==> PWD ... hecho.
+==> TYPE I ... hecho.  ==> CWD (1) /genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2 ... hecho.
+==> SIZE GCF_000005845.2_ASM584v2_genomic.fna.gz ... 1379902
+==> PASV ... hecho.    ==> RETR GCF_000005845.2_ASM584v2_genomic.fna.gz ... hecho.
+Longitud: 1379902 (1,3M) (no autenticado)
+
+     0K .......... .......... .......... .......... ..........  3% 96,1K 14s
+    50K .......... .......... .......... .......... ..........  7% 1,62M 7s
+   100K .......... .......... .......... .......... .......... 11% 92,1K 9s
+   150K .......... .......... .......... .......... .......... 14%  681K 7s
+   200K .......... .......... .......... .......... .......... 18% 1,02M 5s
+   250K .......... .......... .......... .......... .......... 22% 1,31M 4s
+   300K .......... .......... .......... .......... .......... 25% 2,00M 4s
+   350K .......... .......... .......... .......... .......... 29%  431K 3s
+   400K .......... .......... .......... .......... .......... 33% 8,06M 3s
+   450K .......... .......... .......... .......... .......... 37%  424K 3s
+   500K .......... .......... .......... .......... .......... 40% 8,35M 2s
+   550K .......... .......... .......... .......... .......... 44% 4,97M 2s
+   600K .......... .......... .......... .......... .......... 48% 7,65M 2s
+   650K .......... .......... .......... .......... .......... 51% 13,1M 1s
+   700K .......... .......... .......... .......... .......... 55% 4,05M 1s
+   750K .......... .......... .......... .......... .......... 59% 9,54M 1s
+   800K .......... .......... .......... .......... .......... 63% 6,87M 1s
+   850K .......... .......... .......... .......... .......... 66% 8,11M 1s
+   900K .......... .......... .......... .......... .......... 70% 7,46M 1s
+   950K .......... .......... .......... .......... .......... 74% 7,66M 1s
+  1000K .......... .......... .......... .......... .......... 77% 4,65M 0s
+  1050K .......... .......... .......... .......... .......... 81% 7,70M 0s
+  1100K .......... .......... .......... .......... .......... 85% 10,0M 0s
+  1150K .......... .......... .......... .......... .......... 89% 6,81M 0s
+  1200K .......... .......... .......... .......... .......... 92% 9,09M 0s
+  1250K .......... .......... .......... .......... .......... 96% 5,52M 0s
+  1300K .......... .......... .......... .......... .......   100% 8,52M=1,6s
+
+2023-11-16 19:01:16 (825 KB/s) - ‘res/genome/ecoli.fasta.gz’ guardado [1379902]
+
+Running STAR index...
+	/home/vant/miniforge3/envs/first-script/bin/STAR-avx2 --runThreadN 4 --runMode genomeGenerate --genomeDir res/genome/star_index/ --genomeFastaFiles res/genome/ecoli.fasta --genomeSAindexNbases 9
+	STAR version: 2.7.11a   compiled: 2023-09-15T02:58:53+0000 :/opt/conda/conda-bld/star_1694746407721/work/source
+Nov 16 19:01:16 ..... started STAR run
+Nov 16 19:01:16 ... starting to generate Genome files
+Nov 16 19:01:17 ... starting to sort Suffix Array. This may take a long time...
+Nov 16 19:01:17 ... sorting Suffix Array chunks and saving them to disk...
+Nov 16 19:01:18 ... loading chunks from disk, packing SA...
+Nov 16 19:01:19 ... finished generating suffix array
+Nov 16 19:01:19 ... generating Suffix Array index
+Nov 16 19:01:19 ... completed Suffix Array index
+Nov 16 19:01:19 ... writing Genome to disk ...
+Nov 16 19:01:19 ... writing Suffix Array to disk ...
+Nov 16 19:01:19 ... writing SAindex to disk
+Nov 16 19:01:19 ..... finished successfully
+Usage: scripts/run_pipeline.sh <sampleid>
